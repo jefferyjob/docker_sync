@@ -61,7 +61,7 @@ jobs:
         skopeo copy docker://docker.io/golang:1.21 docker://registry.cn-hangzhou.aliyuncs.com/jefferyjob/golang:1.21
         
         # scratch
-        skopeo copy docker://docker.io/scratch:latest docker://registry.cn-hangzhou.aliyuncs.com/jefferyjob/scratch:latest
+        skopeo copy docker://docker.io/scratch docker://registry.cn-hangzhou.aliyuncs.com/jefferyjob/scratch
         
         # alpine
         skopeo copy docker://docker.io/alpine:latest docker://registry.cn-hangzhou.aliyuncs.com/jefferyjob/alpine:latest

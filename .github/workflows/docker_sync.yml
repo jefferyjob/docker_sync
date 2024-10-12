@@ -46,9 +46,6 @@ jobs:
         # PHP alpine integration
         skopeo copy docker://docker.io/suyar/php:8.3-alpine-integration docker://registry.cn-hangzhou.aliyuncs.com/jefferyjob/suyar_php:8.3-alpine-integration
         
-        # PHP jefferyjob alpine integration
-        skopeo copy docker://docker.io/jefferyjob/php-integration:8.3-alpine docker://registry.cn-hangzhou.aliyuncs.com/jefferyjob/jefferyjob_php-integration:8.3-alpine
-        
         # Composer
         skopeo copy docker://docker.io/composer:latest docker://registry.cn-hangzhou.aliyuncs.com/jefferyjob/composer:latest
         

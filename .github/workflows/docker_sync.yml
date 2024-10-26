@@ -66,3 +66,4 @@ jobs:
         # nodejs
         skopeo copy docker://docker.io/node:latest docker://registry.cn-hangzhou.aliyuncs.com/jefferyjob/node:latest
         skopeo copy docker://docker.io/node:16 docker://registry.cn-hangzhou.aliyuncs.com/jefferyjob/node:16
+        skopeo copy docker://docker.io/node:20 docker://registry.cn-hangzhou.aliyuncs.com/jefferyjob/node:20

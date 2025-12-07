@@ -70,3 +70,6 @@ jobs:
 
         # alpine
         skopeo copy docker://docker.io/alpine:3.8 docker://registry.cn-hangzhou.aliyuncs.com/jefferyjob/alpine:3.8
+
+        # golang alpine
+        skopeo copy docker://docker.io/golang:1.24-alpine3.18 docker://registry.cn-hangzhou.aliyuncs.com/jefferyjob/golang:1.24-alpine3.18
